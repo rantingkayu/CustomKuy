@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">CustomKuy</string>
+
+    <array name="jenis_kelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </array>
+
+    <string name="Welcome">welcome</string>
+    <string name="Welcome1">welcome2</string>
+    <string name="Welcome2">Welcome2</string>
+
+    <string-array name="Lemari">
+        <item>Lemari</item>
+        <item>Custom Kuy</item>
+        <item>Belum di ambil Mebel</item>
+        <item>Belum dibayar</item>
+    </string-array>
+
+    <string-array name="Riwayat">
+        <item>Riwayat Transaksi </item>
+    </string-array>
+
+    <string-array name="Kursi">
+        <item>Kursi</item>
+        <item>Custom Kuy</item>
+        <item>Belum di ambil Mebel</item>
+        <item>Belum dibayar</item>
+    </string-array>
+
+    <string-array name="pilih_kategori">
+        <item>PIlih</item>
+        <item>Lemari</item>
+        <item>Kursi</item>
+        <item>Meja</item>
+        <item>Tempat Tidur</item>
+        <item>Pintu</item>
+    </string-array>
+
+
+    <string-array name="bahan">
+        <item>Jati</item>
+        <item>Pinus</item>
+        <item>Kaca</item>
+        <item>Mahoni</item>
+        <item>Meranti</item>
+    </string-array>
+
+
+    <string-array name="panjang">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="Lebar">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="Tinggi">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="Pengerjaan">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="Tanggal">
+        <item>25</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="Bulan">
+        <item>Januari</item>
+        <item>Febuari</item>
+        <item>Maret</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+    <string-array name="Tahun">
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

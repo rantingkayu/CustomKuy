@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".Fragment.NotifFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/Orange"
+            android:padding="10dp">
+
+            <ImageView
+                android:onClick="kembali"
+                android:layout_width="50dp"
+                android:layout_gravity="center"
+                android:layout_height="20dp"
+                android:id="@+id/kembali"
+                app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pemberitahuan"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    <View android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#bbb"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/to_status"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Status Pesanan"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/kembali"
+            android:layout_marginStart="100dp"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+    </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#bbb"/>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/to_riwayat"
+                android:layout_width="200dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Riwayat Transaksi"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/kembali"
+                android:layout_marginStart="100dp"
+                app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#bbb"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/lemari" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/to_meja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lemari Pakaian"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.1.200.000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#bbb"/>
+
+        </FrameLayout>
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

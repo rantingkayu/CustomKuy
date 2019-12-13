@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.customkuy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcom.MainWelcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Welcom.ModelObject" />
+        <activity android:name=".Welcom.CustomAdapter" />
+        <activity android:name=".Fragment.MenuActivity" />
+        <activity android:name=".CustomActivity" />
+        <activity android:name=".BayarActivity" />
+        <activity android:name=".RiwayatTransaksiActivity" />
+        <activity android:name=".MejaRiwayatTransaksiActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Chat.ChatActivity" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".KonfirmasiBarangAnda" />
+        <activity android:name=".EditProfilActivity" />
+        <activity android:name=".BerhasilBayarActivity" />
+        <activity android:name=".status_pesanan.MainActivity" />
+        <activity android:name=".StatusPesananActivity" />
+        <activity android:name=".EditProfilSucse" />
+        <activity android:name=".KonfirmasiPembayaranActivity" />
+        <activity android:name=".SuksesBayar"></activity>
+    </application>
+
+</manifest>

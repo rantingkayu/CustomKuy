@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".BayarActivity">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/Orange"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:onClick="kembali"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="20dp"
+            android:id="@+id/kembali"
+            app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#eee"
+            android:text="Form Konfirmasi Order"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#bbb"/>
+    </FrameLayout>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi data di bawah ini dengan benar agar  transaksi berjalan lancar"
+        android:textAlignment="center"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+        <View android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#bbb"/>
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/location"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan Alamat"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:text="Nama Pengirim:"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/nama_rek"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Dumy"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#bbb"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Kode Orderan:"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3165:"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/Orange"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="No Rekening CustomKuy:"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14373738373838"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Batas Waktu Pembayaran"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7-12-2018"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Silahkan lakukan pembayaran sebelum tanggal yang sudah di tentukan "
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+        <FrameLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+            <View android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#bbb"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+  <Button
+      android:layout_marginTop="50dp"
+      android:id="@+id/btn_konfir"
+      android:layout_width="200dp"
+      android:layout_gravity="center"
+      android:layout_height="wrap_content"
+      android:background="@color/colorPrimary"
+      android:textColor="@color/colorWhite"
+      android:text="Konfirmasi Pembayaran"/>
+</LinearLayout>
+
+
+</ScrollView>
+</LinearLayout>
